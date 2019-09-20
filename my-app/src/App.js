@@ -7,6 +7,7 @@ import Edit from './components/edit.component';
 import Index from './components/index.component';
 
 class App extends Component {
+  
   render() {
     return (
       <Router>
@@ -19,10 +20,10 @@ class App extends Component {
                   <Link to={'/'} className="nav-link">Home</Link>
                 </li>
                 <li className="nav-item">
-                  <Link to={'/create'} className="nav-link">Create</Link>
+                  <Link to={'/index'} className="nav-link">Index</Link>
                 </li>
                 <li className="nav-item">
-                  <Link to={'/index'} className="nav-link">Index</Link>
+                  <Link to={'/create'} className="nav-link">Create</Link>
                 </li>
               </ul>
             </div>
